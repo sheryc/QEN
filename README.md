@@ -38,7 +38,13 @@ python -m spacy download en_core_web_md
 
 ### For datasets used in the paper
 
-We have provided the three datasets we used in the paper in ```data/``` folder. Each of the dataset folders contain at least the following files:
+We have provided the three datasets we used in the paper below. Put the corresponding extracted folder directly under `data/` for the experiments.
+
+* [WordNet-Verb](https://drive.google.com/file/d/13NXEAsy4sBFzq4C_lSYAhiiOgFCoG7Qa/view?usp=sharing)
+* [MeSH](https://drive.google.com/file/d/1hCxIdwoHbb11q9V9kZSXV3f-4lU9FQzr/view?usp=sharing)
+* [SemEval-Food](https://drive.google.com/file/d/1tZbGp9ayWCMRnBWe38vCsrNmkO5Lu3-K/view?usp=sharing)
+
+Each of the dataset folders contain at least the following files:
 
 1. ``<TAXO_NAME>.terms``. Each line in this file represents one term / concept / node in the taxonomy, including its *ID* and *surface name*.
 
